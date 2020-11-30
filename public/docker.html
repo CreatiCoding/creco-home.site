@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>도커</h1>
+    <h2>도커 process 모두 종료</h2>
+    <h4>docker rm `docker ps -a -q`</h4>
+    <h2>도커 image 모두 삭제</h2>
+    <h4>docker rmi `docker images -a -q`</h4>
+    <h2>도커 이미지로 bash 실행</h2>
+    <h4>docker run -it nginx:latest /bin/sh</h4>
+    <h2>도커 컨테이너로 bash 실행</h2>
+    <h4>docker exec -it 컨테이너ID /bin/sh</h4>
+</body>
+</html>
